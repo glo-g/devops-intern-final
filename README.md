@@ -23,6 +23,19 @@ Repository initialized with this README and a sample `hello.py` script that
 prints `Hello, DevOps!`.
 
 Run it locally:
-```bash
+'''bash
 python3 hello.py
+'''
+
+## Step 2: Linux & Scripting Basics
+`scripts/sysinfo.sh` is a shell script that prints:
+- Current user (`whoami`)
+- Current date (`date`)
+- Disk usage (`df -h`)
+
+Run it:
+```bash
+chmod 755 scripts/sysinfo.sh
+./scripts/sysinfo.sh
 ```
+
