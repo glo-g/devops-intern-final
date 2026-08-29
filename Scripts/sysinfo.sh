@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "System Information"
 uname -a
 echo "Current User:"
