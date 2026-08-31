@@ -55,7 +55,9 @@ docker run --rm devops-intern-final
 Expected output:
 
 
-![Docker container output](screenshots/docker-final-output.png) 
+![Docker container output](screenshots/docker-final-output.png)
 ```
 Hello, DevOps!
 ```
+## Step 4: CI/CD with GitHub Actions
+[![CI](https://github.com/glo-g/devops-intern-final/actions/workflows/ci.yml/badge.svg)](https://github.com/glo-g/devops-intern-final/actions/workflows/ci.yml)
