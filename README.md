@@ -13,7 +13,7 @@ Docker, CI/CD (GitHub Actions), job orchestration (Nomad), and log monitoring
 ## Steps
 - [x] 1. Git & GitHub Setup
 - [x] 2. Linux & Scripting Basics
-- [ ] 3. Docker Basics
+- [x] 3. Docker Basics
 - [ ] 4. CI/CD with GitHub Actions
 - [ ] 5. Job Deployment with Nomad
 - [ ] 6. Monitoring with Grafana Loki
@@ -38,4 +38,24 @@ Run it:
 chmod 755 scripts/sysinfo.sh
 ./scripts/sysinfo.sh
 ```
+## Step 3: Docker Basics
+A `Dockerfile` containerizes `hello.py`. The container runs `python hello.py`
+on startup.
 
+Build the image:
+```bash
+docker build -t devops-intern-final .
+```
+
+Run the container:
+```bash
+docker run --rm devops-intern-final
+```
+
+Expected output:
+
+
+![Docker container output](screenshots/docker-final-output.png)
+```
+Hello, DevOps!
+```
