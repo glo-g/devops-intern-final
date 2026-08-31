@@ -61,3 +61,23 @@ Hello, DevOps!
 ```
 ## Step 4: CI/CD with GitHub Actions
 [![CI](https://github.com/glo-g/devops-intern-final/actions/workflows/ci.yml/badge.svg)](https://github.com/glo-g/devops-intern-final/actions/workflows/ci.yml)
+
+## Step 5: Job Deployment with Nomad
+`nomad/hello.nomad` defines a Nomad job that runs the Docker container built
+in Step 3 (`devops-intern-final:latest`) as a `service` type job with minimal
+resource allocation (100 MHz CPU, 64 MB memory).
+
+Start Nomad in dev mode:
+```bash
+sudo nomad agent -dev
+```
+
+Run the job:
+```bash
+nomad job run nomad/hello.nomad
+```
+
+Check status:
+```bash
+nomad job status hello
+```
