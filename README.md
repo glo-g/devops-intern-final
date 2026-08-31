@@ -55,7 +55,7 @@ docker run --rm devops-intern-final
 Expected output:
 
 
-![Docker container output](screenshots/docker-final-output.png)
+![Docker container output](screenshots/docker-final-output.png) 
 ```
 Hello, DevOps!
 ```
