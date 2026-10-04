@@ -14,8 +14,8 @@ Docker, CI/CD (GitHub Actions), job orchestration (Nomad), and log monitoring
 - [x] 1. Git & GitHub Setup
 - [x] 2. Linux & Scripting Basics
 - [x] 3. Docker Basics
-- [ ] 4. CI/CD with GitHub Actions
-- [ ] 5. Job Deployment with Nomad
+- [x] 4. CI/CD with GitHub Actions
+- [x] 5. Job Deployment with Nomad
 - [ ] 6. Monitoring with Grafana Loki
 
 ## Step 1: Git & GitHub Setup
