@@ -1,5 +1,5 @@
-# devops-intern-final
-# DevOps Intern Final Assessment
+# devops-final
+# DevOps Final Assessment
 
 Author:Gloria Kiarie
 Date:2026-08-28
